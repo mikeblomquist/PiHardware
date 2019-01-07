@@ -1,4 +1,4 @@
-""" main function via gui calls various hardware functions"""
+""" MainWindow is home base for executing hardware test routines."""
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from beeperTest import beeperTest
