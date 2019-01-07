@@ -1,4 +1,5 @@
-""" MainWindow is home base for executing hardware test routines."""
+""" MainWindow is home base for executing hardware test routines.
+    Making a test comment"""
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from beeperTest import beeperTest
@@ -10,7 +11,7 @@ class MainWindow:
         
     """This function is connected to the Beeper Test button"""
     def run_beeper_test(self):
-        beepertest = beeperTest('mike')
+        beepertest = beeperTest()
         beepertest.start()
         
     app = QApplication(sys.argv)
