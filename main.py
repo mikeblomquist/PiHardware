@@ -1,5 +1,4 @@
-""" MainWindow is home base for executing hardware test routines.
-    Making a test comment"""
+""" MainWindow is home base for executing hardware test routines."""
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from beeperTest import beeperTest
